@@ -64,22 +64,7 @@ class EmployeePayrollData {
             "undefined" :
             this.startDate.toLocaleDateString("en-US", option);
         return (
-            "id=" +
-            this.id +
-            ",name= '" +
-            this.name +
-            ",gender= '" +
-            this.gender +
-            ",profilePic= '" +
-            this.profilePic +
-            ",department=" +
-            this.department +
-            ",salary=" +
-            this.salary +
-            ",startDate=" +
-            empDate +
-            ",note=" +
-            this.note
+            `id=${this.id},name= '${this.name},gender= '${this.gender},profilePic= '${this.profilePic},department=${this.department},salary=${this.salary},startDate=${empDate},note=${this.note}`
         );
     }
 }
