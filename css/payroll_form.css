@@ -44,6 +44,9 @@ body {
     box-sizing: border-box;
 }
 
+
+/* UC2 */
+
 .form-content {
     display: flex;
     justify-content: center;
@@ -107,4 +110,25 @@ label {
     border-radius: 4px;
     resize: vertical;
     border: 1px solid grey;
+}
+
+
+/* UC3 */
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.profile-radio-content label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
 }
