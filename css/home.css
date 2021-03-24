@@ -141,3 +141,34 @@
       color: #3d3d3d;
       opacity: 1;
   }
+  
+  tr:not(:first-child) {
+      background-color: white;
+      border: 1px solid gray;
+      border-radius: 3px;
+  }
+  
+  td:first-child {
+      display: flex;
+      align-items: center;
+  }
+  
+  td img:first-child {
+      margin-right: 10px;
+  }
+  
+  td img {
+      cursor: pointer;
+  }
+  
+  .dept-label {
+      background-color: #e9fea5;
+      width: fit-content;
+      text-align: center;
+      border: 0px solid;
+      border-radius: 12px;
+      margin: 2px;
+      font-size: 16px;
+      padding: 5px;
+      display: inline;
+  }

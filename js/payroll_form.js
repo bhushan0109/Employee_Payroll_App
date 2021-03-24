@@ -92,11 +92,11 @@ const resetForm = () => {
     unsetSelectedValues("[name=profile]");
     unsetSelectedValues("[name=gender]");
     unsetSelectedValues("[name=department]");
-    setValue("#salary", "20000");
+    setValue("#salary", "");
     setValue("notes", "");
     setValue("#day", "1");
     setValue("#month", "January");
-    setValue("#year", "2020");
+    setValue("#year", 2020);
 };
 
 const unsetSelectedValues = (propertyValue) => {
