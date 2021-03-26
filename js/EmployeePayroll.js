@@ -71,10 +71,10 @@ class EmployeePayrollData {
 
     //method
     toString() {
-        const option = { day: "numeric", month: "long", year: "number" };
+        const option = { day: "numeric", month: "short", year: "numeric" };
         const empDate = !this.startDate ?
             "undefined" :
-            this.startDate.toLocaleDateString("en-US", option);
+            this.startDate.toLocaleDateString("en-GB", option);
         return (
             "id=" + this.id +
             ",name= '" + this.name +
